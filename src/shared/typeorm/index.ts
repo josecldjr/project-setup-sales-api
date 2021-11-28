@@ -8,6 +8,8 @@ connection
   })
   .catch(err => {
     console.log(err);
+
+    return err;
   });
 
 export default connection;
